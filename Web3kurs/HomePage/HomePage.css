@@ -80,12 +80,106 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
 }
+.ffirst{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.ffffirst{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .ffirst h2{
     color: gray;
+    font-size: 30px;
 }
 .ffirst h1{
     color: white;
+    font-size: 70px;
 }
 .ffirst p{
     color: gray;
+    font-size: 20px;
 }
+.fffirst{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 165px;
+}
+.firstsize{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.firstsize h1{
+    font-size: 45px;
+    color: white;
+}
+.firstsize p{
+    color: gray;
+    font-size: 20px;
+}
+.yellowplus{
+    color: #FFD11A;
+}
+.fffffirst{
+    display: flex;
+    align-items: end;
+    height: 22vh;
+}
+.first-image-container{
+  position: relative;
+  display: inline-block;
+}
+.Layer{
+  display: block;
+  width: 100%;
+}
+.SubContainer{
+  position: absolute;
+  top: 40vh;
+  right: 22vw;
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.avatars{
+  width: 100%;
+  height: auto;
+}
+.content-title{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  width: 30vh;
+}
+.content-text {
+  color: #98989a;
+  font-size: 19px;
+  width: 52vh;
+}
+.content-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.content-btn:hover {
+  background-color: #1c1c1c;
+}
+.arrow {
+  color: #FFD11A;
+}
+
+
+
