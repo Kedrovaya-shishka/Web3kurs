@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    width: 100vw;
+    width: 99vw;
     height: 10vh;
     background-color: #1A1A1A;
     background-repeat: no-repeat;
@@ -70,8 +70,8 @@ nav ul li a:hover{
 
 
 .first{
-    width: 100vw;
-    height: 1000vh;
+    width: 99vw;
+    height: 78vh;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,3 +183,78 @@ nav ul li a:hover{
 
 
 
+.second-section{
+    width: 99vw;
+    height: 20vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+}
+.secondcont{
+    color: white;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.secondcont img{
+    height: 23%;
+    width: 18%;
+}
+.secondcont p{
+    color: gray;
+}
+.Second-But{
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+}
+.Second-Butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+}
+
+
+
+.third-section{
+    width: 99vw;
+    height: 25vh;
+    background-color: #1A1A1A;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tthird{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    width: 86vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.third button{
+    width: 9vw;
+    height: 3vh;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    background-color: gray;
+}
+.third h1{
+    color: white;
+    font-size: 60px;
+}
