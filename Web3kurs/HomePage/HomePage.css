@@ -258,3 +258,73 @@ nav ul li a:hover{
     color: white;
     font-size: 60px;
 }
+
+
+
+.four-section{
+    width: 99vw;
+    height: 80vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four{
+    color: white;
+    display: flex;
+    justify-content: start;
+    width: 80vw;
+}
+.ffourcont{
+    display: flex;
+    justify-content: space-around;
+}
+.fffourcont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 45vh;
+    width: 20vw;
+}
+.fffourcont img{
+    height: 5vh;
+    width: 3vw;
+}
+.fffourcontt{
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+}
+.containerfour{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+.fourrcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 50vh;
+}
+.fourcont{
+    width: 20vw;
+    height: 5vh;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.fourcont h2{
+    font-size: 28px;
+}
+.fourcont p{
+    color: gray;
+    font-size: 20px;
+}
