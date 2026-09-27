@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 99vw;
+    height: 10vh;
+    background-color: #1A1A1A;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    width: 28%;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    width: 99px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+nav ul li a{
+    color: gray;
+}
+ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li:hover{
+    background-color: black;
+    border: 1px solid gray;
+}
+nav ul li a:hover{
+    color: white
+    ;
+}
+.knopki{
+    color: white;
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.knopka{
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    color: black;
+    background-color: #FFD11A;
+    width: 137px;
+    height: 55px;
+}
+
+.section1 {
+  display: flex;
+  width: 99vw;
+  height: 25vh;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 40px;
+  padding: 60px 80px;
+  background-color: black;
+  color: white;
+}
+.section1 h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  flex: 1 1 480px;
+}
+.section1 p {
+  flex: 1 1 320px;
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-bottom: 6px;
+}
+
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 80px 60px;
+  background-color: black;
+  color: white;
+}
+.sect2a {
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.ico2 {
+  width: 40px;
+  height: 36px;
+  object-fit: contain;
+}
+.head2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+}
+.head2 h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.stars2 {
+  color: #f5b400;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.host2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 16px;
+}
+.host2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.host2 span:first-child {
+  color: #9a9a9a;
+  font-size: 13px;
+}
+.host2 span:last-child {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn2 {
+  padding: 10px 16px;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #151515;
+  cursor: pointer;
+}
+.sect2b {
+  flex: 2 1 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.photo2 {
+  position: relative;
+  height: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.photo2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.play2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  color: #0d0d0d;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sect2b h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.sect2b p {
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.stats2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.stats2 div {
+  flex: 1 1 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.stats2 span:first-child {
+  color: #9a9a9a;
+  font-size: 13px;
+}
+.stats2 span:last-child {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nine-section{
+    width: 99vw;
+    height: 35vh;
+    background-color: #1A1A1A;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nine{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+.nnine{
+    width: 86vw;
+    height: 25vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.nnine button{
+    width: fit-content;
+    height: auto;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2A2A2A;
+    color: #cccccc;
+}
+.nnine h1{
+    color: white;
+    font-size: 60px;
+}
+.ninecont{
+    display: flex;
+    justify-content: space-around;
+}
+.ninecontt{
+    display: flex;
+    justify-content: center;
+}
+.ninecontt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+}
+
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 32px;
+  padding: 0 80px 60px;
+  background-color: black;
+  color: white;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.photo3 {
+  width: 100%;
+  height: 172px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+.card3 h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.card3 p {
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.btn3 {
+  align-self: flex-start;
+  margin-top: 6px;
+  padding: 10px 16px;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #151515;
+  cursor: pointer;
+}
+
+
+.eleven-section{
+    width: 100vw;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    box-sizing: border-box;
+    font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+}
+.elevencont{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.elevensect{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.eleven-logo{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.ttelevensect{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.eleven-tag{
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: #2A2A2A;
+    border: none;
+    border-radius: 6px;
+    color: #cccccc;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ttelevensect h1{
+    color: white;
+    font-size: 40px;
+}
+.ttelevensect p{
+    color: gray;
+    font-size: 15px;
+    max-width: 850px;
+}
+.elevengrid{
+    display: grid;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.elevencard{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.elevencard-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elevencard-top h3{
+    color: white;
+    font-size: 17px;
+}
+.eleven-arrow{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E5C158;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.elevencard p{
+    color: gray;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 62.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+footer .verx{
+    width: 1596px;
+    height: 464px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.3px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+footer .verx .kont{
+    width: 255px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .verx .kont .knopkas{
+    width: 165px;
+    height: 47px;
+    cursor: pointer;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    font-size: 18px;
+}
+footer .verx .kont .knopkas p{
+    color: #98989A;
+    font-size: 18px;
+}
+footer .verx .kont span{
+    border: 0.3px solid gray;
+    border-radius: 15px;
+    font-size: 16px;
+    left: 5px;
+    position: relative;
+    color: white;
+    background-color: #262626;
+}
+footer .verx .kont h1{
+    font-size: 20px;
+    color: white;
+}
+footer .verx .kont p{
+    font-size: 18px;
+    color: #666666;
+}
+footer .niz{
+    width: 1596px;
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .niz .one{
+    color: #666666;
+    font-size: 18px;
+}
